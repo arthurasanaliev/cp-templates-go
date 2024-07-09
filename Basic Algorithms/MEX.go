@@ -1,6 +1,6 @@
 import "sort"
 
-func MEX(a []int) int {
+func mex(a []int) int {
   sort.Ints(a)
   if a[0] != 0 {
     return 0
