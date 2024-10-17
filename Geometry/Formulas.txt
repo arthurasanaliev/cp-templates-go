@@ -1,0 +1,21 @@
+Cross Product: 
+    Double area with (0,0)
+    - Sign -> on Left
+    + Sign -> on Right
+    P * Q = P.x * Q.y - Q.x * P.y
+
+Shoelace Formula: 
+    Area of polygon
+    A = Sum(Pi * Pi+1) for i = 1..N
+
+Pick's Theorem:
+    Number of lattice points
+    A = i + b / 2 - 1
+    b = Sum(gcd(dxi, dyi)) for i = 1..N
+    i -> lattice points inside polygon
+    b -> lattice points on boundary
+
+Ray Casting:
+    Check if point inside polygon
+    Odd no of inters -> inside
+    Even no of inters -> outside
